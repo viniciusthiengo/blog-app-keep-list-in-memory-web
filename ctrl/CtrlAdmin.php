@@ -5,7 +5,6 @@
      * */
     /*ini_set('display_errors', 1);*/
 
-    include '../domain/User.php';
     include '../domain/Post.php';
     include '../apl/AplAdmin.php';
 
@@ -18,16 +17,11 @@
 
 
     if( strcasecmp( $dados['metodo'], 'get-posts' ) == 0 ){
+        /*
+         * Delay para que o ProgressBar seja apresentado no lado Android
+         * */
         sleep(1);
-
-        $user = new User( $dados['email'] );
-        AplAdmin::saveUser($user);
 
         $postsJson = AplAdmin::getPostsComoJson();
         echo $postsJson;
-    }
-
-    else if( strcasecmp( $dados['metodo'], 'get-users' ) == 0 ){
-        $usersJson = AplAdmin::getUsersComoJson();
-        echo $usersJson;
     }
