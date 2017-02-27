@@ -1,7 +1,7 @@
 <?php
     include 'Database.php';
     include '../domain/Post.php';
-    include '../domain/MockData.php';
+    include '../data/MockData.php';
 
     $posts = MockData::criarListaPost();
     //echo json_encode($posts, true);

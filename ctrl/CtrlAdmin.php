@@ -20,7 +20,7 @@
         /*
          * Delay para que o ProgressBar seja apresentado no lado Android
          * */
-        sleep(1);
+        sleep(2);
 
         $postsJson = AplAdmin::getPostsComoJson();
         echo $postsJson;
