@@ -16,16 +16,6 @@ Sendo assim, ao final da implementação deste projeto Web em seu próprio ambie
 
 O projeto Android pode ser acessado no seguinte repositório: [Blog App (Java Android)](https://github.com/viniciusthiengo/blog-app-keep-list-in-memory).
 
-### AndroidX ⚠
-
-O projeto Android deste repositório, apesar de estar ainda atual e rodando sem problemas.
-
-Apesar disso é aconselhável que o desenvolvedor (leitor) migre o projeto para o AndroidX.
-
-Migre assim que o finalizado em sua própria instalação do Android Studio IDE.
-
-O processo de migração é bem simples e pode ser seguido no tutorial a seguir: [Migrar para o AndroidX](https://developer.android.com/jetpack/androidx/migrate?hl=pt-br).
-
 ## Dados livro
 
 "Receitas Para Desenvolvedores Android"
