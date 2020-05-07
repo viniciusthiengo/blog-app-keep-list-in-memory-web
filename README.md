@@ -4,7 +4,7 @@ Projeto Web do livro "Receitas Para Desenvolvedores Android".
 
 Projeto Web de apoio ao projeto Android de exemplo apresentado no **Capítulo 2** do livro, mais precisamente o capítulo "Mantendo Listas, Sem Novos Carregamentos".
 
-<img src="https://www.thiengo.com.br/img/livro/receitas-para-desenvolvedores-android/github/aplicativo-web-capitulo-02.jpg" alt="Estrutura de arquivos do lado Web do capítulo 2" height="220">
+<img src="https://www.thiengo.com.br/img/livro/receitas-para-desenvolvedores-android/github/aplicativo-web-capitulo-02.jpg" alt="Estrutura de arquivos do lado Web do capítulo 2" height="240">
 
 **Observação importante:** para o total entendimento do projeto Web é preciso ter em mãos o livro "Receitas Para Desenvolvedores Android" com o capítulo 2 já aberto, pois as explicações detalhadas de todo o projeto deste repositório estarão nesta parte do livro.
 
